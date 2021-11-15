@@ -1,0 +1,305 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Makanan",
+      "desc": "Daftar makanan tersedia."
+    },
+    {
+      "id": 2,
+      "name": "Minuman",
+      "desc": "Daftar minuman tersedia."
+    },
+    {
+      "id": 3,
+      "name": "Satu Set",
+      "desc": "Daftar makanan satu set tersedia."
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "code": "K-01",
+      "name": "Avocado Toast 2pcs",
+      "price": 26000,
+      "is_ready": false,
+      "image": "bf_1.png",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "code": "K-02",
+      "name": "Onigiri 5pcs",
+      "price": 35000,
+      "is_ready": true,
+      "image": "bf_6.png",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "code": "K-03",
+      "name": "Curry Katsu",
+      "price": 25000,
+      "is_ready": true,
+      "image": "lc_9.png",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "code": "K-04",
+      "name": "Pancake",
+      "price": 20000,
+      "is_ready": true,
+      "image": "bf_5.png",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "code": "K-05",
+      "name": "Chicken Katsu",
+      "price": 35000,
+      "is_ready": true,
+      "image": "lc_8.png",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "code": "K-06",
+      "name": "Bread",
+      "price": 10000,
+      "is_ready": true,
+      "image": "bf_10.png",
+      "category": {
+        "id": 1,
+        "name": "Makanan"
+      }
+    },
+    {
+      "id": 7,
+      "code": "K-07",
+      "name": "Korean Set",
+      "price": 40000,
+      "is_ready": true,
+      "image": "lc_1.png",
+      "category": {
+        "id": 1,
+        "name": "Satu Set"
+      }
+    },
+    {
+      "id": 8,
+      "code": "K-08",
+      "name": "Box Set",
+      "price": 25000,
+      "is_ready": true,
+      "image": "lc_3.png",
+      "category": {
+        "id": 3,
+        "name": "Satu Set"
+      }
+    },
+    {
+      "id": 9,
+      "code": "K-09",
+      "name": "Tteokbokki Hotang",
+      "price": 30000,
+      "is_ready": true,
+      "image": "lc_7.png",
+      "category": {
+        "id": 3,
+        "name": "Satu Set"
+      }
+    },
+    {
+      "id": 10,
+      "code": "K-010",
+      "name": "Vegetarian Set",
+      "price": 30000,
+      "is_ready": true,
+      "image": "lc_10.png",
+      "category": {
+        "id": 3,
+        "name": "Satu Set"
+      }
+    },
+    {
+      "id": 11,
+      "code": "K-011",
+      "name": "Milk",
+      "price": 7000,
+      "is_ready": true,
+      "image": "d_milk.png",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": 12,
+      "code": "K-012",
+      "name": "Orange Juice",
+      "price": 5000,
+      "is_ready": true,
+      "image": "d_juice.png",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": 13,
+      "code": "K-013",
+      "name": "Espresso Coffe",
+      "price": 12000,
+      "is_ready": true,
+      "image": "d_espresso.png",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": 14,
+      "code": "K-014",
+      "name": "Latte Coffe",
+      "price": 15000,
+      "is_ready": true,
+      "image": "d_latte.png",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    },
+    {
+      "id": 15,
+      "code": "K-015",
+      "name": "Lemon Tea",
+      "price": 5000,
+      "is_ready": false,
+      "image": "d_lemon.png",
+      "category": {
+        "id": 2,
+        "name": "Minuman"
+      }
+    }
+  ],
+  "baskets": [],
+  "orders": [
+    {
+      "total_payment": 60000,
+      "total_menu": 2,
+      "menus": [
+        {
+          "total": 4,
+          "total_price": 20000,
+          "menu": {
+            "id": 15,
+            "code": "K-015",
+            "name": "Lemon Tea",
+            "price": 5000,
+            "is_ready": true,
+            "image": "d_lemon.png",
+            "category": {
+              "id": 2,
+              "name": "Minuman"
+            }
+          },
+          "id": 1
+        },
+        {
+          "total": 2,
+          "total_price": 60000,
+          "menu": {
+            "id": 9,
+            "code": "K-09",
+            "name": "Tteokbokki with Hotang",
+            "price": 30000,
+            "is_ready": true,
+            "image": "lc_7.png",
+            "category": {
+              "id": 3,
+              "name": "Satu Set"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "notes": "ekstra pedas",
+      "id": 1
+    },
+    {
+      "total_payment": 66000,
+      "total_menu": 3,
+      "notes": "selai rasa cokelat, onigiri tanpa rasa kacang.",
+      "menus": [
+        {
+          "total": 3,
+          "total_price": 21000,
+          "menu": {
+            "id": 11,
+            "code": "K-011",
+            "name": "Milk",
+            "price": 7000,
+            "is_ready": true,
+            "image": "d_milk.png",
+            "category": {
+              "id": 2,
+              "name": "Minuman"
+            }
+          },
+          "id": 3
+        },
+        {
+          "total": 1,
+          "total_price": 35000,
+          "menu": {
+            "id": 2,
+            "code": "K-02",
+            "name": "Onigiri 5pcs",
+            "price": 35000,
+            "is_ready": true,
+            "image": "bf_6.png",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          },
+          "id": 5
+        },
+        {
+          "total": 1,
+          "total_price": 10000,
+          "menu": {
+            "id": 6,
+            "code": "K-06",
+            "name": "Bread",
+            "price": 10000,
+            "is_ready": true,
+            "image": "bf_10.png",
+            "category": {
+              "id": 1,
+              "name": "Makanan"
+            }
+          },
+          "id": 6
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
